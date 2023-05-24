@@ -1,0 +1,35 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Adjust the height as needed */
+    background-image: url('assets/tropical cave.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .overlay {
+    position: relative;
+    top: 10%;
+    left: 58%;
+    width: 40%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background color */
+    display: flex;
+    align-items: right;
+    justify-content: center;
+  }
+  
+  .text-box {
+    text-align: center;
+    color: #fff; /* Text color */
+  }
+  
+  .text-box h1 {
+    font-size: 150%;
+    margin-bottom: 10px;
+  }
+  
+  .text-box p {
+    font-size: 80%;
+  }
+  
